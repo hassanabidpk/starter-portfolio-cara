@@ -12,12 +12,6 @@ module.exports = {
       options: {},
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
-      },
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Cara - @lekoarts/gatsby-theme-cara`,
@@ -41,7 +35,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
   ],
 }
